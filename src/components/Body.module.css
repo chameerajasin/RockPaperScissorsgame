@@ -1,0 +1,67 @@
+.box {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.display {
+  height: 10rem;
+  display: flex;
+  font-size: 20px;
+  color: #d4b37f;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.displayheight {
+  height: 6rem;
+}
+
+.display h2 {
+  display: flex;
+  font-size: 45px;
+  margin: 2rem;
+}
+
+.message {
+  color: #d4b37f;
+}
+
+.won {
+  height: auto;
+  color: rgba(24, 126, 58, 255);
+  font-size: 45px;
+  padding: 0px;
+}
+.lose {
+  height: 6rem;
+  color: crimson;
+  font-size: 45px;
+  padding: 0px;
+}
+.winscore h2 {
+  color: #d4b37f;
+  padding: 0px;
+}
+
+.vs {
+  color: #d4b37f;
+}
+
+.disstate {
+  color: white;
+}
+
+button {
+  width: 7rem;
+  height: 3rem;
+  margin: 2rem;
+  font-size: large;
+  font-weight: bold;
+  color: #d4b37f;
+  background-color: black;
+  border: 2px solid rgba(142, 125, 96, 255);
+  border-radius: 5rem;
+  cursor: pointer;
+}
